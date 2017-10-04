@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AdminDino</string>
+
+    <string name="action_add">Add</string>
+    <!-- nagigation drawer title -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_information">ข้อมูล</string>
+    <string name="title_checkingnumber">ตรวจสอบเลข</string>
+
+</resources>

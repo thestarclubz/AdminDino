@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:gravity="center"
+    tools:context="com.wiboon.admindino.module.finding.FindingFragment">
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please input number only"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:background="@android:drawable/editbox_background"/>
+    
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:layout_marginTop="18dp"/>
+
+</LinearLayout>
